@@ -101,11 +101,11 @@ const d = new Date(new Date().getTime() + 8 * 60 * 60 * 1000);//GITHUB
 const b = new Date(new Date().getTime());//手机
 
 const qqreadbdArr = [];
-let qqreadbodyVal = "{"common":{"appid":1450024393,"areaid":5,"qq_ver":"8.4.18.4945","os_ver":"Android 10","mp_ver":"0.33.3","mpos_ver":"1.21.0","brand":"Xiaomi","model":"Mi 10","screenWidth":393,"screenHeight":835,"windowWidth":393,"windowHeight":781,"openid":"484CE19C2FD5585CBC571D77131FC65C","guid":625426323,"session":"6ckproharptfz19wzlkjf7wwlzmhr6nl","scene":1011,"source":-1,"hasRedDot":"false","missions":-1,"caseID":-1},"dataList":[{"click1":"bookShelf_myshelf_myBook_C","click2":"qqauthorize_addRCS_succ_C","route":"pages/book-shelf/index","refer":-1,"options":{},"dis":1607946915866,"ext6":91,"eventID":"qqauthorize_addRCS_get_C","type":"click"}]}";
+let qqreadbodyVal = "";
 const qqreadtimeurlArr = [];
-let qqreadtimeurlVal = 'https://mqqapi.reader.qq.com/mqq/addReadTimeWithBid?scene=1011&refer=-1&bid=34095&readTime=6573&read_type=0&conttype=1&read_status=0&chapter_info=%5B%7B%221%22%3A%7B%22readTime%22%3A6573%2C%22pay_status%22%3A0%7D%7D%5D&sp=-1';
+let qqreadtimeurlVal = "";
 const qqreadtimehdArr = [];
-let qqreadtimeheaderVal = "{"Cookie":"ywguid=625426323;ywkey=ywNw2WSExTad;platform=android;channel=mqqmina;mpVersion=0.33.3;qq_ver=8.4.18.4945;os_ver=Android 10;mpos_ver=1.21.0"}";
+let qqreadtimeheaderVal = "";
 let qqreadBD = [];
 let qqreadtimeURL = [];
 let qqreadtimeHD = [];
